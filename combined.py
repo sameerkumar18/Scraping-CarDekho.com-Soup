@@ -28,19 +28,19 @@ def main():
 #           "https://www.cardekho.com/cars/tata","https://www.cardekho.com/cars/honda"]
     base = "https://www.cardekho.com/cars/"
     url = ["hyundai","maruti","skoda","bmw","tata","honda"]
-
+    x = base+url[input]
     if input == 0:
-        retrieval(base+url[input])
+        retrieval(x)
     if input == 1:
-        retrieval(base+url[input])
+        retrieval(x)
     if input == 2:
-        retrieval(base+url[input])
+        retrieval(x)
     if input == 3:
-        retrieval(base+url[input])
+        retrieval(x)
     if input == 4:
-        retrieval(base+url[input])
+        retrieval(x)
     if input == 5:
-        retrieval(base+url[input])
+        retrieval(x)
 
 
 
